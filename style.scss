@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:'Montserrat', sans-serif;
+}
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.top {
+    height: 1024px;
+    background-image: url(img/background_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+    &__heading {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+        color: #FFFFFF;
+        width: 789px;
+        padding-top: 217px;
+        padding-bottom: 32px;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        width: 481px;
+        padding-bottom: 44px;
+    }
+    &__link {
+        text-decoration: none;
+        font-weight: 700;
+        color: #FFFFFF;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    &__button {
+        background: #9C0332;
+        border-radius: 30px;
+        width: 234px;
+        height: 49px;
+        box-sizing: border-box;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        border: none;
+        transition: background 0.3s;
+        &:hover {
+            background: #EB443F;
+        }
+    }
+}
+.content {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    background: #000915;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    &__game {
+        width: 378px;
+        &__text {
+            position: absolute;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: #FFFFFF;
+            margin-top: 236px;
+            margin-left: 32px;
+        }
+    }
+    &_img {
+        border: 3px solid transparent; 
+        border-radius: 16px;
+        transition: border-color 0.2s;
+        &:hover {
+            border-color: #44D2FF;
+        }
+    }
+}

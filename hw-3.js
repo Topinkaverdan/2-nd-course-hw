@@ -68,3 +68,4 @@ switch (monthNumber) {
 // Задание 7
 let number = Number(prompt('Пожалуйста, введите любое число'));
 (number % 2 === 0) ? console.log('Число четное') : console.log('Число нечетное');
+// Задание 8

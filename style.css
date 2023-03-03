@@ -133,6 +133,7 @@ body {
   color: #FFFFFF;
   width: 234px;
   height: 49px;
+  border: none;
 }
 
 @media (max-width: 767px) {
@@ -174,5 +175,36 @@ body {
   }
   .content_img {
     width: 343px;
+  }
+  .play__content {
+    padding-top: 51px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .play__content__information {
+    align-items: center;
+    text-align: center;
+  }
+  .play__content__information__heading {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .play__content__information__text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+  }
+  .play__content__img {
+    width: 344px;
+    height: 231px;
+  }
+  .play_content_background {
+    padding-bottom: 321px;
+  }
+  .img_second_game {
+    position: absolute;
+    margin-top: 242px;
   }
 }/*# sourceMappingURL=style.css.map */

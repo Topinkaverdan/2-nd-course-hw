@@ -126,7 +126,11 @@ body {
                 color: #FFFFFF;
                 width: 234px;
                 height: 49px;
-                border: none
+                border: none;
+                transition: background 0.3s;
+                &:hover {
+                    background: #EB443F;
+                }
             }
         }
     }

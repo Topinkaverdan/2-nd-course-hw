@@ -134,6 +134,10 @@ body {
   width: 234px;
   height: 49px;
   border: none;
+  transition: background 0.3s;
+}
+.play__content__information__button:hover {
+  background: #EB443F;
 }
 
 @media (max-width: 767px) {

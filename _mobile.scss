@@ -38,4 +38,35 @@
     .content_img {
         width: 343px;
     }
+    .play__content {
+        padding-top: 51px;
+        padding-bottom: 90px;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        &__information {
+            align-items: center;
+            text-align: center;
+            &__heading {
+                font-size: 32px;
+                line-height: 39px;
+            }
+            &__text {
+                font-size: 14px;
+                line-height: 22px;
+                width: 343px;
+            }
+        }
+        &__img {
+            width: 344px;
+            height: 231px;
+        }
+    }
+    .play_content_background {
+        padding-bottom: 321px;
+    }
+    .img_second_game {
+        position: absolute;
+        margin-top: 242px;
+    }
 }

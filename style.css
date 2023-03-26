@@ -140,7 +140,50 @@ body {
   background: #EB443F;
 }
 
-@media (max-width: 767px) {
+.game {
+  background-image: url(img/background_thirdGame.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 276px;
+  padding-bottom: 288px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+.game__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.game__information {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.game__button {
+  background: #9C0332;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  width: 234px;
+  height: 49px;
+  border: none;
+  transition: background 0.3s;
+}
+.game__button:hover {
+  background: #EB443F;
+}
+
+@media (max-width: 768px) {
   .center {
     padding-left: calc(50% - 171.5px);
     padding-right: calc(50% - 171.5px);

@@ -144,6 +144,7 @@ body {
   background-image: url(img/background_thirdGame.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #000915;
   padding-top: 276px;
   padding-bottom: 288px;
   display: flex;
@@ -253,5 +254,17 @@ body {
   .img_second_game {
     position: absolute;
     margin-top: 242px;
+  }
+  .game {
+    padding-top: 51px;
+    padding-bottom: 487px;
+  }
+  .game__heading {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .game__information {
+    font-size: 14px;
+    line-height: 22px;
   }
 }/*# sourceMappingURL=style.css.map */

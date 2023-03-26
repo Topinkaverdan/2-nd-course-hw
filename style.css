@@ -184,6 +184,20 @@ body {
   background: #EB443F;
 }
 
+.footer {
+  background-color: #000915;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.footer__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .center {
     padding-left: calc(50% - 171.5px);

@@ -178,4 +178,17 @@ body {
         }
     }
 }
+.footer {
+    background-color: #000915;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
 @import "mobile";

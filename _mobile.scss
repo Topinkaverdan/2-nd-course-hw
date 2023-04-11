@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .center {
         padding-left: calc(50% - 343px/2);
         padding-right: calc(50% - 343px/2);
@@ -68,5 +68,17 @@
     .img_second_game {
         position: absolute;
         margin-top: 242px;
+    }
+    .game {
+        padding-top: 51px;
+        padding-bottom: 487px;
+        &__heading {
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &__information {
+            font-size: 14px;
+            line-height: 22px;
+        }
     }
 }
